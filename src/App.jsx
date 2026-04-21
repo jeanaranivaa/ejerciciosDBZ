@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route }
 import Home from "./pages/Home";
 import Nav from "./components/Nav";
 import DragonBall from "./pages/DragonBall";
+import RickAndMorty from "./pages/RickAndMorty";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path ="/" element={<Home/>} />
           <Route path ="/dragon" element={<DragonBall/>} />
+          <Route path = "/rickandmorty" element={<RickAndMorty/>} />
         </Routes>
       </Router>
     </>
